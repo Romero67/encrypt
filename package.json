@@ -1,5 +1,5 @@
 {
-  "name": "encrypt",
+  "name": "encrypt web",
   "version": "1.0.0",
   "description": "encrypt/desencrypt message with web crypto",
   "main": "index.js",
