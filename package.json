@@ -1,6 +1,6 @@
 {
   "name": "encrypt-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "encrypt/desencrypt message with web crypto",
   "main": "index.js",
   "scripts": {
