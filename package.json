@@ -1,6 +1,6 @@
 {
   "name": "encrypt-web",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "encrypt/desencrypt message with web crypto",
   "main": "index.js",
   "scripts": {
@@ -13,10 +13,5 @@
   },
   "author": "Mariano Romero Abadie",
   "license": "MIT",
-  "dependencies": {
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.4.4"
-  },
-  "devDependencies": {
-  }
+  "keywords": ["nodejs", "javascript", "webcrypto"]
 }
