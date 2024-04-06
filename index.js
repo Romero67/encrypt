@@ -193,20 +193,6 @@ class MyCrypto {
     }
 }
 exports.default = MyCrypto;
-const hola = () => __awaiter(void 0, void 0, void 0, function* () {
-    const criptonita = new MyCrypto();
-    const privatekey = `MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDATo2h85z0BhFiOAbUgYO+crgcCUFR1XvEzPdOhtbAlW01G6D6VGekRL85a9Ubi6KNX+h5dtwFF0wnY3AsUzU+v6T9785+A/YhFEmpek09DRB8grGiX6qnP5NsmqvdmZ6Kie6MNt8nrAV22MY3JM8YOZCT+HukVjz5xZxsdaReKqQbhxZ/BO2soaGg1c0m1y1RJAvk1LLVY3GRTCSMmchgN908HF3/HgPdxuwOiLV5ofyv5Be88uMcdcMlaqYtgXlrqNtPn3tlWIT2bhj4BzNPgHXqCt07ZOxiL1Y37AGduxpx1KBsskwxdDowwAGN892amU7jq/bIABOG5Umf1d9JAgMBAAECggEAEq5u3tk6GZCPVsHHlBRC1pjxXrPddxQsklkw+x1pNkst0TduY3MYoGIXS344tRTTBTXYcRhFVm9FdBwaVQv+Q6q9XffSUPaUjfEZGNArOa+PtvDBTdtKSjYIXcgGwx+9wYqVtGROOF3jKAD1/Hxka9+HtoAwjq3b/Y2fXP/uqEED4xpVwl3q9ym8pDUNRcgCji2pAWiZmI63A2gP2gu42NqSu79n3zKViE9opsYmf+gXcayvKqSjoYpDJI7j2ivcJ/dMNsbgWtRK6+fqrtb12xf3+cB4gxH0/ez82rCXTGrIP1vaViqPhELLFEDmcBglhd26OCanx12wNzHKgNPYWwKBgQD0Ep9u5Ee+LE9XE4So1gJJCRA/WGa7VO/RxGb8czQDG4r9ln+1zjciAX4kia/qiu+V4rCFMZWad247bRRGWy0FYOrMcPPxplIKDVirbNg0UT6QXl3DlE2LQ9jzsPtI8pp9lCW5fgSYgNTkZ0ecGtcHzhi+a/zAf9Dh06YjRZtjywKBgQDJtFVVlknjhTLqMJqbcizCGFa9+DB8HA2/hYS929o5dBEIzz6KISlH1qg9lvMUUHHjziQoeeFx0B6F8Bumh31asj2y8haNjtO+mMo17BrsVVca2xgRz10Fe8mTnfFio0h5jjQC0Unur5Wmm7EGaZRQ3MwoFgSpgRVgMC4sTICuuwKBgDS5NSGSRIErNzRbLgP+vt2iDJVydjavYWLR52FPTYQCViLzeMEAO96nreUcrRigTKL3JiSPkn6cn/5MUN3l4jLQPchN+hRQVlZ/jZDyYT3j8vzitaSDC8EytdHmgFHAvmi0MPYB5+I9qj9wpAJvtdWkyqmP0DiRI8E0pCXoamnDAoGAVwQuQEMa00XWZkPbny4Ncxqu6TuWJySvJa3DS2j6ZwjUhHlr4IlX1r8bS57AdUYTLBT1cmTKRqBjWqLwOtJ+2M7GYVmhMyan4LTnn4WhQ825S0OzyZMs7T2vA7kCtuv8Szx24bRKcedb50mJgFux+YSXqr98+WdPwnRmpwPGDBsCgYB3YdXYU2yN0GbtVYwPvjkMV0cJwsMfP2uJ8CgRPYYZcqiP0mI1bZUVOvsb7YCob0tExRYV4DSEMHc7NpRp0+ZaxM6p2fls4kRDkpI4ltJaxrTiVsUJ3pyNi/91M6TQ6sYOzb+MU30YnkMVIRhuC9XMECPYNM2mWmMO+DItyXCElg==`;
-    const publickey = `MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwE6NofOc9AYRYjgG1IGDvnK4HAlBUdV7xMz3TobWwJVtNRug+lRnpES/OWvVG4uijV/oeXbcBRdMJ2NwLFM1Pr+k/e/OfgP2IRRJqXpNPQ0QfIKxol+qpz+TbJqr3ZmeionujDbfJ6wFdtjGNyTPGDmQk/h7pFY8+cWcbHWkXiqkG4cWfwTtrKGhoNXNJtctUSQL5NSy1WNxkUwkjJnIYDfdPBxd/x4D3cbsDoi1eaH8r+QXvPLjHHXDJWqmLYF5a6jbT597ZViE9m4Y+AczT4B16grdO2TsYi9WN+wBnbsacdSgbLJMMXQ6MMABjfPdmplO46v2yAAThuVJn9XfSQIDAQAB`;
-    yield criptonita.initPrivateKey(privatekey);
-    yield criptonita.initPublicKey(publickey);
-    const msj = "Hola 123";
-    console.log("mensaje: ", msj);
-    const encryptMsj = yield criptonita.encryptData(msj);
-    console.log("mensaje encryptado: ", encryptMsj);
-    const descryptMsj = yield criptonita.decrypt(encryptMsj);
-    console.log("mensaje descriptado: ", descryptMsj);
-});
-hola();
 module.exports = {
     MyCrypto
 };
