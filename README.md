@@ -8,9 +8,6 @@ NPM package to easily utilize the "webcrypto" library. It leverages the native "
 ### Install using npm 
 npm i encrypt-web
 
-### Install using Yarn 
-yarn add encrypt-web
-
 ## Usage Examples
 
 ### Creating Keys and Encrypting/Decrypting with SHA-256 Algorithm
